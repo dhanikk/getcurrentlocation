@@ -5,8 +5,7 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": ">=7.4",
-        "itpathsolutions/getlocationdetails": "1.*",
-        "mvc-php/framework": "1.*@dev"
+        "php": "^7.4",
+        "itpathsolutions/getlocationdetails": "^1.0"
     }
 }
