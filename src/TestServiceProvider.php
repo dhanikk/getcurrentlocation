@@ -14,7 +14,7 @@ class TestServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('get_current_location', function($app){
+        $this->app->singleton('get_current_location', function($app){//
             return new GetCurrentLocation($app);
         });
     }

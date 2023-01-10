@@ -1,25 +1,40 @@
 {
-    "name": "itpathsolutions/getlocationdetail",
+    "name": "itpathsolutions/get-location-detail",
     "description": "Get current location details by IP address.",
-    "type": "package",
+    "type": "library",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
+    "authors": [
+        {
+          "role": "Developer",
+          "name": "Dhanik Keraliya",
+          "email": "dhanikk@itpathsolutions.com"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0|^8.1"
     },
     "autoload": {
         "psr-4": {
-            "itpathsolutions\\getlocationdetail\\": "src/"
+            "ItPathSolutions\\GetLocationDetail\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Itpathsolutions\\GetLocationDetail\\ServiceProvider"
+                "ItPathSolutions\\GetLocationDetail\\TestServiceProvider"
             ],
             "aliases": {
-                "GetLocationDetail": "Itpathsolutions\\GetLocationDetail\\Facades\\GetLocationDetail"
+                "GetLocationDetail": "ItPathSolutions\\GetLocationDetail\\Facades\\GetCurrentLocation"
             }
         }
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
     }
 }
