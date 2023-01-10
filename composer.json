@@ -1,5 +1,5 @@
 {
-    "name": "itpathsolutions/get-location-detail",
+    "name": "itpathsolutions/location",
     "description": "Get current location details by IP address.",
     "type": "library",
     "keywords": ["framework", "laravel"],
@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "ItPathSolutions\\GetLocationDetail\\": "src/"
+            "Itpathsolutions\\Location\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ItPathSolutions\\GetLocationDetail\\ServiceProvider"
+                "Itpathsolutions\\Location\\ServiceProvider"
             ],
             "aliases": {
-                "GetLocationDetail": "ItPathSolutions\\GetLocationDetail\\Facades\\GetCurrentLocation"
+                "GetLocationDetail": "Itpathsolutions\\Location\\Facades\\GetCurrentLocation"
             }
         }
     },
