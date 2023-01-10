@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.4",
-        "itpathsolutions/getlocationdetails": "1.0",
-        "mvc-php/framework": "main@dev"
+        "itpathsolutions/getlocationdetails": "1.*",
+        "mvc-php/framework": "1.*@dev"
     }
 }
