@@ -9,7 +9,17 @@
     },
     "autoload": {
         "psr-4": {
-            "itpathsolutions\\getlocationdetail\\": "app/"
+            "itpathsolutions\\getlocationdetail\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Itpathsolutions\\GetLocationDetail\\ServiceProvider"
+            ],
+            "aliases": {
+                "GetLocationDetail": "Itpathsolutions\\GetLocationDetail\\Facades\\GetLocationDetail"
+            }
         }
     }
 }
