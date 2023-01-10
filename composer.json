@@ -1,0 +1,10 @@
+{
+    "name": "itpathsolutions/getlocationdetail",
+    "description": "Get current location details by IP address.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "itpathsolutions/getlocationdetails": "1.*"
+    }
+}
