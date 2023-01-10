@@ -19,16 +19,6 @@
             "Itpathsolutions\\Location\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Itpathsolutions\\Location\\ServiceProvider"
-            ],
-            "aliases": {
-                "GetLocationDetail": "Itpathsolutions\\Location\\Facades\\GetCurrentLocation"
-            }
-        }
-    },
     "require-dev": {},
     "minimum-stability": "dev",
     "prefer-stable": true,
