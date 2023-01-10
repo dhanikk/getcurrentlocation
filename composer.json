@@ -6,6 +6,6 @@
     "license": "MIT",
     "require": {
         "php": ">=7.4",
-        "itpathsolutions/getlocationdetails": "1.*"
+        "itpathsolutions/getlocationdetails": "1.0"
     }
 }
