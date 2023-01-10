@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ItPathSolutions\\GetLocationDetail\\TestServiceProvider"
+                "ItPathSolutions\\GetLocationDetail\\ServiceProvider"
             ],
             "aliases": {
                 "GetLocationDetail": "ItPathSolutions\\GetLocationDetail\\Facades\\GetCurrentLocation"

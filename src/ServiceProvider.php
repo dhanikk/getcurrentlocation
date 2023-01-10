@@ -2,10 +2,10 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 use Illuminate\Support\Facades\View;
 use App\Http\Services\GetCurrentLocation;
-class TestServiceProvider extends ServiceProvider
+class ServiceProvider extends IlluminateServiceProvider
 {
     /**
      * Register services.
