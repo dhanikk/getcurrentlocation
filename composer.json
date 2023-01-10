@@ -11,5 +11,5 @@
         "psr-4": {
             "itpathsolutions\\getlocationdetail\\": "app/"
         }
-    },
+    }
 }
