@@ -1,6 +1,7 @@
 {
     "name": "itpathsolutions/getlocationdetail",
     "description": "Get current location details by IP address.",
+    "type": "package",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
